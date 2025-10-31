@@ -72,4 +72,4 @@ vim.keymap.set("v", "<A-j>", ":m .+1<CR>==", opts)
 vim.keymap.set("v", "<A-k>", ":m .-2<CR>==", opts)
 
 -- keymap for toggleTerm plugin
-vim.keymap.set("n", "<leader>tt", ":ToggleTerm", opts)
+vim.keymap.set("n", "<leader>tt", ":ToggleTerm<CR>", opts)
