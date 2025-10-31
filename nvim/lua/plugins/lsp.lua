@@ -131,31 +131,15 @@ return {
 		-- - settings (table): Override the default settings passed when initializing the server.
 		local servers = {
 			ts_ls = {},
-			ruff = {},
-			pylsp = {
-				settings = {
-					pylsp = {
-						plugins = {
-							pyflakes = { enabled = false },
-							pycodestyle = { enabled = false },
-							autopep8 = { enabled = false },
-							yapf = { enabled = false },
-							mccabe = { enabled = false },
-							pylsp_mypy = { enabled = false },
-							pylsp_black = { enabled = false },
-							pylsp_isort = { enabled = false },
-						},
-					},
-				},
-			},
+			gopls = {},
 			html = { filetypes = { "html", "twig", "hbs" } },
 			cssls = {},
-			tailwindcss = {},
 			dockerls = {},
 			sqlls = {},
-			terraformls = {},
 			jsonls = {},
+			clangd = {},
 			yamlls = {},
+			angularls = {},
 			lua_ls = {
 				settings = {
 					Lua = {
