@@ -70,3 +70,6 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>", opts) --  go to previous tab
 -- Move text up and down
 vim.keymap.set("v", "<A-j>", ":m .+1<CR>==", opts)
 vim.keymap.set("v", "<A-k>", ":m .-2<CR>==", opts)
+
+-- keymap for toggleTerm plugin
+vim.keymap.set("n", "<leader>tt", ":ToggleTerm", opts)
